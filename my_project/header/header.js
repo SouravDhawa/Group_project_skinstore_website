@@ -59,7 +59,7 @@ function head(){
             </ul>
         </li>
         <li class="drpdown"><a href="">Sale</a></li>
-        <li class="drpdown"><a href="">Mothers Day</a>
+        <li class="drpdown"><a href="./motherday/mothers_day.html">Mothers Day</a>
             <ul class="menu-area">
             <ul>
                 <h4>Shop by price</h4>
