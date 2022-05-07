@@ -35,13 +35,16 @@ data=[
 
 ];
 
-var cartData = JSON.parse(localStorage.getItem("cart")) || [];
+var cartData = JSON.parse(localStorage.getItem("cartLists")) || [];
 document.querySelector(".addtocart").addEventListener('click',myfunction)
 
 function myfunction(){
     console.log("dfsg")
     cartData.push(data[0])
-    localStorage.setItem("cart", JSON.stringify(cartData));
+    localStorage.setItem(
+      "cartLists",
+      JSON.stringify(cartData)
+    );
     alert('item added to cart' )
     document.querySelector(".dis").innerHTML=cartData.length
     // add();
@@ -54,7 +57,10 @@ document.querySelector(".addon").addEventListener('click',myfunctiona)
 function myfunctiona(){
     
     cartData.push(data[0])
-    localStorage.setItem("cart", JSON.stringify(cartData));
+    localStorage.setItem(
+      "cartLists",
+      JSON.stringify(cartData)
+    );
    // alert('item added to cart' )
     document.querySelector(".dis").innerHTML=cartData.length
     // add();
@@ -66,7 +72,10 @@ document.querySelector(".del").addEventListener('click',myfunctionb)
 function myfunctionb(){
 
     cartData.pop();
-    localStorage.setItem("cart", JSON.stringify(cartData));
+    localStorage.setItem(
+      "cartLists",
+      JSON.stringify(cartData)
+    );
    // alert('item remove to cart' )
     document.querySelector(".dis").innerHTML=cartData.length
     // add();

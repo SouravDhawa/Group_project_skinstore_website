@@ -36,17 +36,17 @@ data=[
 
 ];
 
-var cartData = JSON.parse(localStorage.getItem("cart")) || [];
-document.querySelector(".addtocart").addEventListener('click',myfunction)
+var cartData = JSON.parse(localStorage.getItem("cartLists")) || [];
+document.querySelector(".addtocartLists").addEventListener('click',myfunction)
 
 function myfunction(){
     
-    cartData.push(data[2])
-    localStorage.setItem("cart", JSON.stringify(cartData));
-    alert('item added to cart' )
-    document.querySelector(".dis").innerHTML=cartData.length
+    cartListsData.push(data[2])
+    localStorage.setItem("cartLists", JSON.stringify(cartListsData));
+    alert('item added to cartLists' )
+    document.querySelector(".dis").innerHTML=cartListsData.length
     // add();
-    console.log(cartData.length);
+    console.log(cartListsData.length);
 }
 
 
@@ -54,21 +54,21 @@ document.querySelector(".addon").addEventListener('click',myfunctiona)
 
 function myfunctiona(){
     
-    cartData.push(data[2])
-    localStorage.setItem("cart", JSON.stringify(cartData));
-   // alert('item added to cart' )
-    document.querySelector(".dis").innerHTML=cartData.length
+    cartListsData.push(data[2])
+    localStorage.setItem("cartLists", JSON.stringify(cartListsData));
+   // alert('item added to cartLists' )
+    document.querySelector(".dis").innerHTML=cartListsData.length
     // add();
-    console.log(cartData.length);
+    console.log(cartListsData.length);
 }
 
 
 document.querySelector(".del").addEventListener('click',myfunctionb)
 function myfunctionb(){
 
-    cartData.pop();
-    localStorage.setItem("cart", JSON.stringify(cartData));
-   // alert('item remove to cart' )
+    cartListsData.pop();
+    localStorage.setItem("cartLists", JSON.stringify(cartListsData));
+   // alert('item remove to cartLists' )
     document.querySelector(".dis").innerHTML=cartData.length
     // add();
     console.log(cartData.length);
