@@ -190,7 +190,7 @@ function head(){
             </ul>
         </ul>
     </li>
-    <li class="drpdown"><a href="">Self-Care</a>
+    <li class="drpdown"><a href="./self.html">Self-Care</a>
         <ul class="menu-area">
             <ul>
                 <h4>Popular Categories</h4>

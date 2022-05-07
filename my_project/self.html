@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
     <style>
         #six_box{
 
@@ -286,7 +291,7 @@
     </style>
 </head>
 <body>
-         
+    <div id="header"></div>
       <main>
              
           <div id="six_box">
@@ -427,5 +432,13 @@
         </div>
 
       </main>
+      <div id="footer"></div>
 </body>
 </html>
+<script type="module">
+import head from "./header/header.js"
+document.getElementById("header").innerHTML=head()
+
+import footer from "./footer/footer.js"
+document.getElementById("footer").innerHTML=footer()
+</script>
