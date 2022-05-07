@@ -1,11 +1,9 @@
+// import head from "../../my_project/header/header.js";
+// document.getElementById('header').innerHTML=head();
 
 
-import head from "../../my_project/header/header.js";
-document.getElementById('header').innerHTML=head();
-
-
-import footer from "../../my_project/footer/footer.js";
-document.getElementById('footer').innerHTML=footer();
+// import footer from "../footer/footer.js";
+// document.getElementById('footer').innerHTML=footer();
 
 
 data=[
@@ -41,7 +39,7 @@ var cartData = JSON.parse(localStorage.getItem("cart")) || [];
 document.querySelector(".addtocart").addEventListener('click',myfunction)
 
 function myfunction(){
-    
+    console.log("dfsg")
     cartData.push(data[0])
     localStorage.setItem("cart", JSON.stringify(cartData));
     alert('item added to cart' )
@@ -75,3 +73,6 @@ function myfunctionb(){
     console.log(cartData.length);
 
 }
+
+
+
