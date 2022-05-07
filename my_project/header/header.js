@@ -194,7 +194,7 @@ function head(){
         <ul class="menu-area">
             <ul>
                 <h4>Popular Categories</h4>
-                <li><a href="">View All Fragrance</a></li>
+                <li><a href="selfcareproducts.html">View All Fragrance</a></li>
                 <li><a href="">New In</a></li>
                 <li><a href="">At-Home Spa</a></li>
                 <li><a href="">View All Wellness Products</a></li>
