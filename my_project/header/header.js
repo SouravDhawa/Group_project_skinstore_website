@@ -15,10 +15,10 @@ function head(){
                  <a href="">Account</a>
                  <ul>
                      <li>
-                         <a href=""><button id="login">LOGIN</button></a>
+                     <a href="/Group_project_skinstore_website/my_project/login/signup/login.html"><button id="login">LOGIN</button></a>
                      </li>
                      <li><br>
-                         <a href=""><button id="register">REGISTER</button></a>
+                     <a href="/Group_project_skinstore_website/my_project/login/signup/register.html"><button id="register">REGISTER</button></a>
                      </li>
                      <li>
                          <a href="">Wish list</a>
