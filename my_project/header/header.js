@@ -15,6 +15,9 @@ function head(){
                  <a href="">Account</a>
                  <ul>
                      <li>
+
+                        
+
                      <a href="/Group_project_skinstore_website/my_project/login/signup/login.html"><button id="login">LOGIN</button></a>
                      </li>
                      <li><br>
@@ -280,6 +283,7 @@ function head(){
 
 
     `
+
 }
 
 export default head
