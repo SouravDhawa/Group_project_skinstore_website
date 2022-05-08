@@ -151,7 +151,46 @@ function head(){
             </ul>
         </ul>
     </li>
-    <li class="drpdown"><a href="">Hair</a></li>
+    <li class="drpdown"><a href="./selfcareproducts.html">Bath&body</a>
+    <ul class="menu-area">
+            <ul>
+                <h4>Popular Categories</h4>
+                <li><a href="">View All Cosmetics</a></li>
+                <li><a href="">View All Bath & Body</a></li>
+                <li><a href="">New In</a></li>
+                <li><a href="">Clean Bath & Body</a></li>
+                <li><a href="">At Home Spa</a></li>
+                <li><a href="">Gifts & Sets</a></li>
+                <li><a href="">Oral Care</a></li>
+
+            </ul>
+            <ul>
+                <h4>Bath & Shower</h4>
+                <li><a href="">Baths Oils/Soak</a></li>
+                <li><a href="">Bath Salts</a></li>
+                <li><a href="">Body Washes</a></li>
+                <li><a href="">Cleansing Bars</a></li>
+                <li><a href="">Exfoliators</a></li>
+               
+            </ul>
+            <ul>
+                <h4>Self Tanners</h4>
+                <li><a href="">Accessories</a></li>
+                <li><a href="">Pre-Tan Preparation</a></li>
+                <li><a href="">Body Tanners</a></li>
+                <li><a href="">Post Tanning</a></li>
+            </ul>
+            <ul>
+                <h4>Moisturizers</h4>
+                <li><a href="">Balms</a></li>
+                <li><a href="">Butters</a></li>
+                <li><a href="">Creams</a></li>
+                <li><a href="">Lotions</a></li>
+                <li><a href="">Lip Plumpers</a></li>
+                <li><a href="">Oils</a></li>
+            </ul>
+        </ul>
+    </li>
     <li class="drpdown"><a href="">Makeup</a>
         <ul class="menu-area">
             <ul>
