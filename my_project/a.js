@@ -10,27 +10,27 @@ data=[
     {
         name:"Dr Lorette The Essentials Set",
         price:"135",
-        image:"https://static.thcdn.com/images/small/webp//productimg/480/480/12746891-7394837306723863.jpg",
+        src:"https://static.thcdn.com/images/small/webp//productimg/480/480/12746891-7394837306723863.jpg",
     },
 
     {
         name:"NuFACE Trinity + Trinity ELE Attachment Set",
         price:"449",
-        image:"https://static.thcdn.com/images/small/webp//productimg/480/480/11288898-2044866329672154.jpg",
+        src:"https://static.thcdn.com/images/small/webp//productimg/480/480/11288898-2044866329672154.jpg",
     },
 
 
     {
         name:"Limited Addition Shampoo",
         price:"56",
-        image:"https://static.thcdn.com/images/small/webp//productimg/480/480/13674865-1224938375011691.jpg",
+        img:"https://static.thcdn.com/images/small/webp//productimg/480/480/13674865-1224938375011691.jpg",
     },
 
 
     {
         name:"DSkinCeuticals Plump and Glow Regimen",
         price:"268",
-        image:"https://static.thcdn.com/images/small/webp//productimg/480/480/11582506-4534812947058012.jpg",
+        src:"https://static.thcdn.com/images/small/webp//productimg/480/480/11582506-4534812947058012.jpg",
     },
 
 ];

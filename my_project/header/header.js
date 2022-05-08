@@ -15,10 +15,13 @@ function head(){
                  <a href="">Account</a>
                  <ul>
                      <li>
-                         <a href="/Group_project_skinstore_website/my_project/login/signup/login.html"><button id="login">LOGIN</button></a>
+
+                        
+
+                     <a href="/Group_project_skinstore_website/my_project/login/signup/login.html"><button id="login">LOGIN</button></a>
                      </li>
                      <li><br>
-                         <a href=""><button id="register">REGISTER</button></a>
+                     <a href="/Group_project_skinstore_website/my_project/login/signup/register.html"><button id="register">REGISTER</button></a>
                      </li>
                      <li>
                          <a href="">Wish list</a>
@@ -32,10 +35,10 @@ function head(){
                  </ul>
              </li>
              <li>
-                 <a href="">cart</a>
+                 <a href="/Group_project_skinstore_website/my_project/cart/cart2.html">cart</a>
                  <ul>
                      <li>
-                         <a href="">Ther are currently no item in your cart</a>
+                         <a href=""><p id="cart_item"></p></a>
                      </li>
                  </ul>
              </li>
@@ -191,7 +194,7 @@ function head(){
             </ul>
         </ul>
     </li>
-    <li class="drpdown"><a href="">Makeup</a>
+    <li class="drpdown"><a href="/Group_project_skinstore_website/my_project/makup.html">Makeup</a>
         <ul class="menu-area">
             <ul>
                 <h4>Popular Categories</h4>
@@ -277,7 +280,10 @@ function head(){
     <h3>Up to 30% off with code COUNTDOWN + 11-Piece Beauty Bag (worth $87) @ $150 | SHOP NOW Homepage Spring refresh—edit your AM & PM routine for your best skin yet. SHOP NOW
         </h3>
 </div>
-    `;
+
+
+    `
+
 }
 
 export default head

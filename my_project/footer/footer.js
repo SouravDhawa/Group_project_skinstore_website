@@ -3,7 +3,7 @@ function footer(){
 
     <div id="connect_with_us"> 
 <div><p>Sign up to our email list and receive 20% off your next order</p>
-<a href=""><button>SIGN UP</button></a>
+<a href="/Group_project_skinstore_website/my_project/login/signup/register.html"><button id="register">SIGN UP</button></a>
 </div>
 <div>
     <P>Connect with us</P>
