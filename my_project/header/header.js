@@ -15,7 +15,7 @@ function head(){
                  <a href="">Account</a>
                  <ul>
                      <li>
-                         <a href=""><button id="login">LOGIN</button></a>
+                         <a href="/Group_project_skinstore_website/my_project/login/signup/login.html"><button id="login">LOGIN</button></a>
                      </li>
                      <li><br>
                          <a href=""><button id="register">REGISTER</button></a>
@@ -277,7 +277,7 @@ function head(){
     <h3>Up to 30% off with code COUNTDOWN + 11-Piece Beauty Bag (worth $87) @ $150 | SHOP NOW Homepage Spring refresh—edit your AM & PM routine for your best skin yet. SHOP NOW
         </h3>
 </div>
-    `
+    `;
 }
 
 export default head
