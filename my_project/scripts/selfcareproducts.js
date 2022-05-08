@@ -1,3 +1,5 @@
+
+
 import head from "../header/header.js"
 document.getElementById("header").innerHTML=head()
 
