@@ -109,7 +109,7 @@ function head(){
         </ul>
     </li>
 
-    <li class="drpdown"><a href="">Skin care</a>
+    <li class="drpdown"><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/home.html">Skin care</a>
         <ul class="menu-area">
             <ul>
                 <h4>Popular Categories</h4>
@@ -119,38 +119,38 @@ function head(){
             </ul>
             <ul>
                 <h4>By Product Type</h4>
-                <li><a href="">Cleansers</a></li>
-                <li><a href="">Moisturizers</a></li>
-                <li><a href="">Serums</a></li>
-                <li><a href="">Eye Serum</a></li>
-                <li><a href="">Eye Care</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Cleansers.html">Cleansers</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Moisturizers.html">Moisturizers</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Serums.html">Serums</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Eye Serum.html">Eye Serum</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Eye Care.html">Eye Care</a></li>
                
             </ul>
             <ul>
                 <h4>By Ingredient</h4>
-                <li><a href="">Vitamin C</a></li>
-                <li><a href="">AHA</a></li>
-                <li><a href="">Caffeine</a></li>
-                <li><a href="">Retinol</a></li>
-                <li><a href="">Lactic Acid</a></li>
-                <li><a href="">Glycolic Acid</a></li>
-                <li><a href="">Azelaic Acid</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Vitamin C.html">Vitamin C</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/AHA.html">AHA</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Caffeine.html">Caffeine</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Retinol.html">Retinol</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Lactic Acid.html">Lactic Acid</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Glycolic Acid.html">Glycolic Acid</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Azelaic Acid.html">Azelaic Acid</a></li>
             </ul>
             <ul>
                 <h4>By Specific Concern</h4>
-                <li><a href="">Acne & Blemishes</a></li>
-                <li><a href="">Fine Lines & Wrinkles</a></li>
-                <li><a href="">Dark Circles</a></li>
-                <li><a href="">Dry Skin</a></li>
-                <li><a href="">Pregnancy Skincare</a></li>
-                <li><a href="">Sensitive Skin</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Acne & Blemishes.html">Acne & Blemishes</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Fine Lines & Wrinkles">Fine Lines & Wrinkles</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Dark Circles.html">Dark Circles</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Dry Skin.html">Dry Skin</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Pregnancy Skincare.html">Pregnancy Skincare</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Sensitive Skin.html">Sensitive Skin</a></li>
             </ul>
             <ul>
                 <h4>Sunscreen & Suncare</h4>
-                <li><a href="">After Sun</a></li>
-                <li><a href="">Tinted</a></li>
-                <li><a href="">Mineral</a></li>
-                <li><a href="">Eye Protection</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/After Sun.html">After Sun</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Tinted.html">Tinted</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Mineral.html">Mineral</a></li>
+                <li><a href="/Group_project_skinstore_website/my_project/Ahsan_skinCare/Eye Protection.html">Eye Protection</a></li>
             </ul>
         </ul>
     </li>
