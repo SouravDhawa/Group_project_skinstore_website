@@ -6,6 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Skin Care</title>
+  <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
   <style>
     * {
       font-family: Lato-Light, Helvetica, Arial, sans-serif;
@@ -271,6 +277,8 @@
 </head>
 
 <body>
+  <div id="header"></div>
+  <hr>
   <p id="firstPara">Shop by Ingredient</p>
   <div id="Shop-by-Ingredient">
     <div><img src="https://static.thcdn.com/images/small/webp/widgets/121-us/10/Page-001-095910.png"></div>
@@ -394,8 +402,16 @@
       cellulite.</p>
 
   </div>
+  <hr>
+  <div id="footer"></div>
 </body>
-<script>
+<script type="module">
+  import head from "../header/header.js";
+document.getElementById('header').innerHTML=head();
+
+
+import footer from "../footer/footer.js";
+document.getElementById('footer').innerHTML=footer();
 </script>
 
 </html>

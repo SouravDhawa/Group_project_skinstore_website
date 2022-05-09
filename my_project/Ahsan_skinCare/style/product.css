@@ -2,9 +2,15 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+.sort:hover{
+  color: rgb(40, 49, 78);
+}
 button,
 img {
   cursor: pointer;
+}
+hr{
+  margin-top: 30px;
 }
 #main-heading {
   font-size: 45px;
