@@ -80,6 +80,7 @@
    
 </style>
 <body>
+    <form id="form">
     <div id="rmain">
         <div id="r2main">
 
@@ -104,33 +105,74 @@
             </div>
             <hr>
             <h4>Or create an email account</h4>
-            <p>*Full Name</p>
-            <input type="text">
-            <p>*Email address</p>
-            <input type="text">
-            <p>*Confirm Email address</p>
-            <input type="text">
-            <p>*Password</p>
-            <input type="password">
-            <p>*Conform Password</p>
-            <input type="Password">
-            <p>Cell Phone Number (Optional)</p>
-            <input type="number">
-            <h6>We will use this number to send occasional promotional messages.</h6>
-            <div id="inr2">
-                <h5 id="refe">Referal Coad (optional)</h5>
+           
+                <p>*Full Name</p>
                 <input type="text">
-                <h6>* Your referrals discount is automatically applied at cart</h6>
-            </div>
-
-            <button style="cursor: pointer;">CONTINUE</button>
-            <P>By proceeding, you are confirming that you agree to our <a href="">Terms and Conditions</a> and <a href="">Privacy Policy</a> </P>
-
-
+                <p>*Email address</p>
+                <input type="text"  id="email">
+                <p>*Confirm Email address</p>
+                <input type="text">
+                <p>*Password</p>
+                <input type="password" id="password">
+                <p>*Conform Password</p>
+                <input type="Password" >
+                <p>Cell Phone Number (Optional)</p>
+                <input type="number">
+                <h6>We will use this number to send occasional promotional messages.</h6>
+                <div id="inr2">
+                    <h5 id="refe">Referal Coad (optional)</h5>
+                    <input type="text">
+                    <h6>* Your referrals discount is automatically applied at cart</h6>
+                </div>
+    
+                <button style="cursor: pointer;" id="submit">CONTINUE</button>
+                <P>By proceeding, you are confirming that you agree to our <a href="">Terms and Conditions</a> and <a href="">Privacy Policy</a> </P>
+          
+        
 
         </div>
         
 
     </div>
+</form>
+
 </body>
+
 </html>
+
+<script>
+
+    function User_data(e,p)
+
+    {
+      
+        this.email=e;
+        this.pass=p;
+    }
+     
+       document.getElementById("form").addEventListener("submit",MYFun)
+
+       let arr=JSON.parse(localStorage.getItem("User_Data"))||[]
+
+       function MYFun()
+       {
+           event.preventDefault()
+
+           let email=document.getElementById("email").value;
+
+           let pass= document.getElementById("password").value;
+
+           let p= new User_data(email,pass)
+
+           console.log(p)
+
+
+           arr.push(p)
+
+           console.log(arr)
+
+           localStorage.setItem("User_Data",JSON.stringify(arr))
+
+
+       }
+</script>

@@ -101,19 +101,21 @@
 
 </style>
 <body>
+    <form id="form">
     <div id="lmain">
 
+      
         <div id="bada">
             <h3>Existing Customers</h3>
             <p>*Email address</p>
-            <input type="text">
+            <input type="text" id="email">
             <p>*Password</p>
-            <input type="text" placeholder="SHOW">
+            <input type="text" placeholder="SHOW" id="password">
             <div id="ankar">
                 <a href="">FORGOTTEN YOUR PASSWORD/</a>
             </div>
         <div id="sbt">
-            <button>SIGN IN</button>
+            <button id="submit">SIGN IN</button>
         </div>
            
 
@@ -136,6 +138,7 @@
 
 
         </div>
+     
         <div id="chota">
 
             <h3>New Customers</h3>
@@ -146,5 +149,47 @@
         </div>
 
     </div>
+</form>
 </body>
 </html>
+
+<script>
+
+
+        let takeData=JSON.parse(localStorage.getItem("User_Data"))
+
+        console.log(takeData)
+
+       
+
+
+        document.querySelector("#form").addEventListener("submit",funLogin)
+        // let takedata=JSON.parse(localStorage.getItem("User"))
+
+        // console.log(takedata)
+
+       function funLogin(){
+           event.preventDefault()
+          let usEmail=document.getElementById("email").value;
+
+          let usPass= document.getElementById("password").value
+
+          for(let i=0;i<takeData.length;i++)
+          {
+              if(takeData[i].email==usEmail && takeData[i].pass==usPass)
+              {
+                  alert("Login Successfull")
+                  
+
+                //   window.location.href="index.html"
+                  break;
+              }
+              else
+              {
+                  alert("invalid Credentials")
+                  break;
+              }
+          }
+
+        }
+</script>
